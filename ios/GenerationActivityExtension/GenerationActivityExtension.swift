@@ -6,13 +6,13 @@ import WidgetKit
 @main
 struct GenerationActivityExtensionBundle: WidgetBundle {
   var body: some Widget {
-    KelivoGenerationActivityWidget()
+    NasappGenerationActivityWidget()
   }
 }
 
-struct KelivoGenerationActivityWidget: Widget {
+struct NasappGenerationActivityWidget: Widget {
   var body: some WidgetConfiguration {
-    ActivityConfiguration(for: KelivoGenerationActivityAttributes.self) { context in
+    ActivityConfiguration(for: NasappGenerationActivityAttributes.self) { context in
       LockScreenLiveActivityView(context: context)
         .activityBackgroundTint(Color(.systemBackground))
         .activitySystemActionForegroundColor(.primary)
@@ -78,7 +78,7 @@ struct KelivoGenerationActivityWidget: Widget {
 }
 
 private struct LockScreenLiveActivityView: View {
-  let context: ActivityViewContext<KelivoGenerationActivityAttributes>
+  let context: ActivityViewContext<NasappGenerationActivityAttributes>
 
   var body: some View {
     HStack(alignment: .center, spacing: 10) {
@@ -134,7 +134,7 @@ private struct LockScreenLiveActivityView: View {
 }
 
 private struct ActivityElapsedText: View {
-  let context: ActivityViewContext<KelivoGenerationActivityAttributes>
+  let context: ActivityViewContext<NasappGenerationActivityAttributes>
 
   var body: some View {
     Text(elapsedText(seconds: context.state.elapsedSeconds))

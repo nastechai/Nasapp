@@ -1,7 +1,7 @@
-import 'package:Kelivo/core/providers/settings_provider.dart';
-import 'package:Kelivo/features/home/widgets/user_message_edit_overlay.dart';
-import 'package:Kelivo/icons/lucide_adapter.dart';
-import 'package:Kelivo/l10n/app_localizations.dart';
+import 'package:Nasapp/core/providers/settings_provider.dart';
+import 'package:Nasapp/features/home/widgets/user_message_edit_overlay.dart';
+import 'package:Nasapp/icons/lucide_adapter.dart';
+import 'package:Nasapp/l10n/app_localizations.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';

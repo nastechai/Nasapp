@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:Kelivo/core/models/chat_message.dart';
-import 'package:Kelivo/features/home/controllers/chat_controller.dart';
+import 'package:Nasapp/core/models/chat_message.dart';
+import 'package:Nasapp/features/home/controllers/chat_controller.dart';
 
 ChatMessage _assistantMessage({
   required String id,

@@ -1,6 +1,6 @@
 # AGENTS.md
 
-> Kelivo is a cross-platform Flutter LLM chat client (Android / iOS / macOS / Windows / Linux).
+> Nasapp is a cross-platform Flutter LLM chat client (Android / iOS / macOS / Windows / Linux).
 > This file defines hard constraints for AI-assisted development. Predictable, auditable, repeatable.
 
 ## 1. Repository Facts
@@ -27,7 +27,7 @@
   - All other generated logic must go through commands, not manual edits
   - `.dart_tool/**`
   - `build/**`
-- The package name is `Kelivo`. Existing imports use `package:Kelivo/...` everywhere. Do not "normalize" the package name.
+- The package name is `Nasapp`. Existing imports use `package:Nasapp/...` everywhere. Do not "normalize" the package name.
 - Top-level platform entry is `_selectHome()` in `lib/main.dart`:
   - macOS / Windows / Linux -> `DesktopHomePage`
   - Android / iOS -> `HomePage`

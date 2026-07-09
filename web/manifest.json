@@ -1,6 +1,6 @@
 {
-    "name": "kelivo",
-    "short_name": "kelivo",
+    "name": "nasapp",
+    "short_name": "nasapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FFFFFF",

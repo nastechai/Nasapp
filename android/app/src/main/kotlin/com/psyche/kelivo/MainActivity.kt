@@ -1,4 +1,4 @@
-package com.psyche.kelivo
+package com.psyche.nasapp
 
 import android.app.Activity
 import android.content.ActivityNotFoundException

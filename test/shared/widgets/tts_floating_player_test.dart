@@ -1,7 +1,7 @@
-import 'package:Kelivo/core/providers/tts_provider.dart';
-import 'package:Kelivo/core/services/tts/tts_playback_models.dart';
-import 'package:Kelivo/l10n/app_localizations.dart';
-import 'package:Kelivo/shared/widgets/app_overlays.dart';
+import 'package:Nasapp/core/providers/tts_provider.dart';
+import 'package:Nasapp/core/services/tts/tts_playback_models.dart';
+import 'package:Nasapp/l10n/app_localizations.dart';
+import 'package:Nasapp/shared/widgets/app_overlays.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:lucide_icons_flutter/lucide_icons.dart' as lucide;

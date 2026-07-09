@@ -380,7 +380,7 @@ class ToolHandlerService {
                   FlutterErrorDetails(
                     exception: error,
                     stack: stack,
-                    library: 'Kelivo local tools',
+                    library: 'Nasapp local tools',
                     context: ErrorDescription('while playing text-to-speech'),
                   ),
                 );
