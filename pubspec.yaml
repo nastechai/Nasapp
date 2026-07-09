@@ -191,17 +191,31 @@ flutter_launcher_icons:
   android: true
   ios: true
   image_path: assets/app_icon_foreground.png
-  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_background: "#000000"
   adaptive_icon_foreground: assets/app_icon_foreground.png
   remove_alpha_ios: true
+  background_color_ios: "#000000"
+  macos:
+    generate: true
+    image_path: assets/app_icon_foreground.png
+    background_color: "#000000"
+  windows:
+    generate: true
+    image_path: assets/app_icon_foreground.png
+    icon_size: 256
+  web:
+    generate: true
+    image_path: assets/app_icon_foreground.png
+    background_color: "#000000"
+    theme_color: "#000000"
 
 flutter_native_splash:
   # Apply to both platforms
   android: true
   ios: true
 
-  # Background colors (fix iOS dark-mode white flash)
-  color: "#FFFFFF"
+  # Background color (single dark brand background so the white tree logo stays visible)
+  color: "#000000"
   color_dark: "#000000"
 
   # Center image (re-use app icon foreground)
@@ -213,7 +227,7 @@ flutter_native_splash:
 
   # Android 12+ splash config (optional but keeps parity)
   android_12:
-    color: "#FFFFFF"
+    color: "#000000"
     color_dark: "#000000"
     image: assets/start.png
     image_dark: assets/start.png
